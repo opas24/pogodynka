@@ -8,7 +8,7 @@
 {% block body %}
 <main>
     <h1>Weather in {{ location.city }}, {{ location.country }}</h1>
-    test
+    
     <ul>
         {% for measurement in measurements %}
             <li>{{ measurement.date|date('d.m.Y') }}: {{ measurement.celsius }}&deg;C</li>
